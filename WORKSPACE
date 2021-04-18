@@ -27,12 +27,6 @@ go_register_toolchains(version = "1.16")
 
 gazelle_dependencies()
 
-# go_repository(
-#     name = "com_github_joehattori_wasmer_go",
-#     importpath = "github.com/joehattori/wasmer-go",
-#     commit = "1a77b9716885422c34c92d18a16a72af9f18e720",
-# )
-
 local_repository(
     name = "com_github_joehattori_wasmer_go",
     path = "/Users/joe/dev/oss/wasmer-go",
